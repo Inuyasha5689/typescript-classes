@@ -24,3 +24,10 @@ const person = new Person("Drake", "Inuyasha5689");
 console.log(person.name, person.username);
 person.printAge();
 // person.setType("Cool guy"); wont work with private method
+
+//Inheritance
+class Drake extends Person {
+    name = "Drake";
+}
+const drake = new Drake("Anna", "inuyasha5689");
+console.log(drake);
